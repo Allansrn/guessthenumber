@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="entrer">
+    <h1>Guess the Number</h1>
+    <p>Choississez la difficulté</p>
+    <button id="easy">Facile</button>
+    <button id="medium">Moyen</button>
+    <button id="hard">Difficile</button>
+  </div>
+  <div id="game">
+      <h1>Guess the Number</h1>
+      <p>Devine un nombre entre <span id="min">1</span> et <span id="max">100</span></p>
+
+    <input type="number" id="guess" placeholder="Votre nombre" />
+    <button id="submit">Valider</button>
+    <p id="message"></p>
+
+    <button id="restart">Rejouer</button>
+    <button id="retour"><img src="images/homeLogo.png" alt="Retour au menu"></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
